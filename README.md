@@ -72,14 +72,3 @@ The script writes `esg_risk_output.csv` with these columns:
 - `summary` (expected to be exactly two sentences — please ensure model obeys prompt)
 
 If an API call fails for a company the error is logged and processing continues for remaining rows. Partial results are saved after each company.
-
-## Submission notes
-
-- Do not commit your `.env` or local virtual environment. Keep API keys secret and rotate them if exposed.
-- For grading or demonstration where quotas are limited, include a cleaned `sample_output.csv` (mock/sanitized) rather than pushing a live `esg_risk_output.csv` produced with a private key.
-
-## License & Acknowledgements
-
-This repository uses `google-generativeai` (deprecated) in requirements; migrate to the newer `google.genai` client when feasible.
-
-Questions or issues: open a GitHub issue in the target repository.
