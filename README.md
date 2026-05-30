@@ -72,3 +72,4 @@ The script writes `esg_risk_output.csv` with these columns:
 - `summary` (expected to be exactly two sentences — please ensure model obeys prompt)
 
 If an API call fails for a company the error is logged and processing continues for remaining rows. Partial results are saved after each company.
+
